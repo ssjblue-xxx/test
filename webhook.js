@@ -12,5 +12,5 @@ function sendMessage() {
     content: msg.textContent
   }
 
-  request.send(JSON.stringify(params));
+  request.send(JSON.stringify(Object.fromEntries(param)));
 }
