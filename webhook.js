@@ -11,6 +11,6 @@ function sendMessage() {
     avatar_url: "",
     content: msg.textContent
   }
-
-  request.send(JSON.stringify(Object.fromEntries(params)));
+  var data = JSON.stringify(params);
+  request.send(data);
 }
