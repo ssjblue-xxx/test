@@ -7,7 +7,7 @@ function sendMessage() {
   request.setRequestHeader('Content-type', 'application/json');
 
   const params = {
-    username: "Test",
+    username: "yeah",
     avatar_url: "",
     content: msg.value
   }
